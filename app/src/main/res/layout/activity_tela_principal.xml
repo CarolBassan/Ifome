@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0000"
+    android:padding="16dp"
+    android:weightSum="1"
+    tools:context=".TelaPrincipal">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/logoifome2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Principal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/pizza_coracao"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizza de Coração"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewPreco1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 29,90"
+                android:textColor="#FF0000"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/pizza_peppe"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizza de Peperoni"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewPreco2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 34,90"
+                android:textColor="#FF0000"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btpedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Realizar pedido"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btsair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Sair"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

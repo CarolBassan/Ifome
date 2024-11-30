@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppIfome</string>
+    <string name="title_activity_tela_pedidos">Pedidos - IFome!!!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="bebidas">
+        <item>Refri Coca-cola</item>
+        <item>Refri Fanta Laranja</item>
+        <item>Refri Fruky Guaraná</item>
+        <item>Refri Baré Cola</item>
+        <item>Cerveja Original</item>
+    </string-array>
+    <string-array name="sabores">
+        <item>Calabresa</item>
+        <item>Mussarela</item>
+        <item>Marguerita</item>
+        <item>Portuguesa</item>
+        <item>Frango com catupiry</item>
+    </string-array>
+
+</resources>
