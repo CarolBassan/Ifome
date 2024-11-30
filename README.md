@@ -17,6 +17,7 @@ JSON: Formato de dados usado para a comunicação entre o app e o servidor remot
 Como Usar 📲
 Clone este repositório para o seu ambiente local:
 ![image](https://github.com/user-attachments/assets/727120c8-5064-4ca8-960b-682cbccff44f)
+
 Abra o projeto no Android Studio.
 Execute o aplicativo em um dispositivo Android ou emulador.
 Faça seu cadastro, realize um pedido e aproveite a experiência! 🎉
