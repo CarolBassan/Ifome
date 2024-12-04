@@ -69,11 +69,10 @@ public class tela_pedidos extends AppCompatActivity {
     }
 
     class EnviaJsonPost extends AsyncTask<Void, Void, String> {
-
         @Override
         protected String doInBackground(Void... voids) {
             try {
-                String url = "http://192.110.110.106/ifome/cadastra_pedido.php";
+                String url = "http://192.167.253.165/ifome/cadastra_pedido.php";
                 JSONObject jsonValores = new JSONObject();
                 jsonValores.put("idusr", 1);
                 jsonValores.put("pizza", isPizzaChecked() ? 1 : 0);
@@ -96,9 +95,9 @@ public class tela_pedidos extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-
             if (result != null && !result.equals("Erro ao enviar pedido.")) {
                 Toast.makeText(tela_pedidos.this, "Pedido realizado com sucesso!", Toast.LENGTH_SHORT).show();
+                finish();
             } else {
                 Toast.makeText(tela_pedidos.this, "Erro ao realizar pedido. Tente novamente.", Toast.LENGTH_SHORT).show();
             }

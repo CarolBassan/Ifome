@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FF0000"
-    android:padding="16dp"
-    android:weightSum="1"
+    android:padding="8dp"
     tools:context=".TelaPrincipal">
 
     <ImageView
         android:id="@+id/imageViewLogo"
-        android:layout_width="240dp"
-        android:layout_height="120dp"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         app:srcCompat="@drawable/logoifome2" />
 
     <TextView
@@ -25,31 +24,31 @@
         android:text="Tela Principal"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="26sp"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="8dp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="6dp">
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8dp"
+            android:padding="6dp"
             android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="180dp"
-            android:layout_height="180dp"
-            app:srcCompat="@drawable/pizza_coracao"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="8dp"/>
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/pizza_coracao"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="4dp" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -58,8 +57,8 @@
                 android:text="Pizza de Coração"
                 android:textColor="#000000"
                 android:textAlignment="center"
-                android:textSize="20sp"
-                android:paddingBottom="8dp" />
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
 
             <TextView
                 android:id="@+id/textViewPreco1"
@@ -68,32 +67,31 @@
                 android:text="R$ 29,90"
                 android:textColor="#FF0000"
                 android:textAlignment="center"
-                android:textSize="18sp" />
-
+                android:textSize="14sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="6dp">
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8dp"
+            android:padding="6dp"
             android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="180dp"
-            android:layout_height="180dp"
-            app:srcCompat="@drawable/pizza_peppe"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="8dp"/>
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/pizza_peppe"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="4dp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -102,8 +100,8 @@
                 android:text="Pizza de Peperoni"
                 android:textColor="#000000"
                 android:textAlignment="center"
-                android:textSize="20sp"
-                android:paddingBottom="8dp" />
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
 
             <TextView
                 android:id="@+id/textViewPreco2"
@@ -112,8 +110,7 @@
                 android:text="R$ 34,90"
                 android:textColor="#FF0000"
                 android:textAlignment="center"
-                android:textSize="18sp" />
-
+                android:textSize="14sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -121,13 +118,13 @@
         android:id="@+id/btpedido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#FFFFFF"
         android:text="Realizar pedido"
         android:textColor="#FF0000"
         android:textStyle="bold"
-        android:padding="12dp"
-        android:textSize="18sp" />
+        android:padding="10dp"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btsair"
@@ -138,7 +135,7 @@
         android:text="Sair"
         android:textColor="#FF0000"
         android:textStyle="bold"
-        android:padding="12dp"
-        android:textSize="18sp" />
+        android:padding="10dp"
+        android:textSize="16sp" />
 
 </LinearLayout>
